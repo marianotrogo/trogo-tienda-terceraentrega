@@ -9,16 +9,12 @@
 @import './layout/main';
 @import './layout/footer';
 
-
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $fuente;
 }
-
 html{
     height: 100%;
 }
@@ -30,12 +26,6 @@ body{
 a{
     text-decoration: none;
 }
-
-
-// ----------------Navegador---------------
-
-
-
 .img_portada{
     margin: 10px;
     width: 100%;
@@ -68,10 +58,6 @@ a{
     text-align: center;
     margin-top: 5px;
 }
-
-
-
-
 
 @media (max-width:768px){
     .grid_container{
