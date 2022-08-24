@@ -104,13 +104,6 @@ a{
             display: flex;
             flex-direction: column;
         }
-        .main_productos{
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: auto;
-            gap: 10px;
-            width: 50%;
-        }
             
         .footer{
             display: flex;
