@@ -1,0 +1,14 @@
+SEO:
+*Se le agrego la descripcion a las etiquetas alt de imagenes.
+*Se le agrego el titulo descriptivo en el Head de los html.
+*Se le incluyo etiquetas meta con palabras clabes.
+
+SASS:
+Se aplico Sass a todo el proyecto.
+Se crearon archivos:
+Map
+extend
+mixin
+variables
+se separo en distintas carpetas los ditintos tipos de sass por ejemplo en las carpetas layout, content y utilities para tener un mejor orden del codigo.
+Los mismos fueron aplicados a distintos estilos dentro de la carpeta Style.scss

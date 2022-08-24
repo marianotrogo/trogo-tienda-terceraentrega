@@ -1,0 +1,13 @@
+.grid-container{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    grid-template-columns: 150px auto auto;
+    grid-template-rows: 150px auto;
+    grid-template-areas: 
+        "header nav"
+        "main main"
+        "main main"
+        "footer footer";
+}
+

@@ -1,0 +1,26 @@
+.main{
+    grid-area: main;
+    padding: 10px;
+    @extend %disposicionflex;
+    flex-direction: column;
+    .main_productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px;
+        .prod{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        img{
+            width: 300px;
+        }   
+    }
+}
+.main_text{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+

@@ -1,0 +1,9 @@
+.header{
+    grid-area: header;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .header_logo{
+        transform: translate(1rem, 2rem);
+    }
+}

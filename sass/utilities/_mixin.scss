@@ -1,0 +1,6 @@
+@mixin buttontienda ($fondo, $ancho, $colorfuente, $fontfamily){
+    background-color: $fondo;
+    color: $colorfuente;
+    width: $ancho;
+    font-family: $fontfamily;
+}

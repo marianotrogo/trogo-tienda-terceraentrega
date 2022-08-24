@@ -1,0 +1,16 @@
+.nav{
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    border-bottom: 3px dotted $separador;
+    a{
+        padding: 10px;
+        color: $color_linknav;
+        &:hover{
+            color: #2d2d2d;
+            border-bottom: 1px solid #2d2d2d;
+        }
+    }
+}

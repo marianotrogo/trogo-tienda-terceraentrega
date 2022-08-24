@@ -1,0 +1,31 @@
+.footer{
+    display: map-get($footer, forma);
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    ul{
+        list-style-type: none;
+    }
+    .footer_container{
+        display: map-get($footer, forma);
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .redes{
+        font-size: map-get($footer, tamaño-fuente-second );
+        padding: map-get($footer, paddin);
+        a{
+            color: $color_linknav;
+            &:hover{
+                color: #2d2b2b;
+            }
+        }
+        .redes_text{
+            font-size: map-get($footer, tamaño-fuente );
+        }
+    }
+    .footer_legal{
+        padding: 10px 5px;
+    }
+}
